@@ -1,0 +1,391 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "ca27US6C6wuniG46Lxjxb",
+      "projectApiToken": "QVCoI4B6GtNygpL1Z1ZNguE8QuMJZcXU3H5LbDgYrXVB3a4OJtKJH6xkOmmLav9jvBtvJBTLpOiwBYOp9w",
+      "projectName": "Pevilab",
+      "version": "latest",
+      "cssFilePath": "plasmic/pevilab/plasmic_pevilab.module.css",
+      "components": [
+        {
+          "id": "DnR4YQT_sRSg",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "ca27US6C6wuniG46Lxjxb",
+          "renderModuleFilePath": "plasmic/pevilab/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/pevilab/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "Fy1Z1kyIlI",
+          "name": "Line1Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Line1.jsx"
+        },
+        {
+          "id": "jGzSkGR0H7U",
+          "name": "Ellipse2Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse2.jsx"
+        },
+        {
+          "id": "X4qS5l_i029",
+          "name": "RedHeartIcon1Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__RedHeartIcon1.jsx"
+        },
+        {
+          "id": "QgnsOgZI4DZ",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Vector.jsx"
+        },
+        {
+          "id": "iYiZSj2ryD7",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Group.jsx"
+        },
+        {
+          "id": "Hs-8WtobFfl",
+          "name": "Line2Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Line2.jsx"
+        },
+        {
+          "id": "nC-JmxhyvD9",
+          "name": "Ellipse3Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse3.jsx"
+        },
+        {
+          "id": "AIDKqVXfyCQ",
+          "name": "Line3Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Line3.jsx"
+        },
+        {
+          "id": "3Ja9os5OsSN",
+          "name": "Ellipse4Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse4.jsx"
+        },
+        {
+          "id": "41tcLsJpRQG",
+          "name": "Line4Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Line4.jsx"
+        },
+        {
+          "id": "Q3CNOLw7Hn6",
+          "name": "ThinLongArrowRightIcon1Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__ThinLongArrowRightIcon1.jsx"
+        },
+        {
+          "id": "-PLtXfsHU2F",
+          "name": "Ellipse5Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse5.jsx"
+        },
+        {
+          "id": "gioTYHUkbLW",
+          "name": "Ellipse6Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse6.jsx"
+        },
+        {
+          "id": "S8AszAW96HH",
+          "name": "Ellipse7Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse7.jsx"
+        },
+        {
+          "id": "0zxct5o_BgV",
+          "name": "Ellipse8Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse8.jsx"
+        },
+        {
+          "id": "p2FWTUycmKW",
+          "name": "Xmlid826Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Xmlid826.jsx"
+        },
+        {
+          "id": "bQAfSit5f39",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Vector2.jsx"
+        },
+        {
+          "id": "AjoM9kMSRkx",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Vector3.jsx"
+        },
+        {
+          "id": "O22RGAAcPEm",
+          "name": "Vector4Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Vector4.jsx"
+        },
+        {
+          "id": "krYIVr6fG3l",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Group3.jsx"
+        },
+        {
+          "id": "_s75IgaNj7H",
+          "name": "Vector5Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Vector5.jsx"
+        },
+        {
+          "id": "MLcrECfOLVr",
+          "name": "Vector6Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Vector6.jsx"
+        },
+        {
+          "id": "yoIxLNnuvDP",
+          "name": "Ellipse9Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse9.jsx"
+        },
+        {
+          "id": "Oq6CchhA5Av",
+          "name": "Ellipse10Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse10.jsx"
+        },
+        {
+          "id": "eeEsPVsqmbd",
+          "name": "Ellipse11Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse11.jsx"
+        },
+        {
+          "id": "8uHDDoaKE5y",
+          "name": "Ellipse12Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse12.jsx"
+        },
+        {
+          "id": "6j2oRuSe7M1",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Group4.jsx"
+        },
+        {
+          "id": "HCVBh9_Z2ZF",
+          "name": "Group5Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Group5.jsx"
+        },
+        {
+          "id": "CU5I9sD-7",
+          "name": "Line5Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Line5.jsx"
+        },
+        {
+          "id": "G9pd9LJCUy",
+          "name": "Line6Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Line6.jsx"
+        },
+        {
+          "id": "VwFdtd7uJI",
+          "name": "Ellipse13Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Ellipse13.jsx"
+        },
+        {
+          "id": "l6jftlsrNz",
+          "name": "RedHeartIcon2Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__RedHeartIcon2.jsx"
+        },
+        {
+          "id": "DKKxNUbQus",
+          "name": "Group6Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Group6.jsx"
+        },
+        {
+          "id": "zTmwLbxQZl",
+          "name": "Line7Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__Line7.jsx"
+        },
+        {
+          "id": "nJpPU_pBPH",
+          "name": "ThinLongArrowRightIcon2Icon",
+          "moduleFilePath": "plasmic/pevilab/icons/PlasmicIcon__ThinLongArrowRightIcon2.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "wKILayMxg",
+          "name": "bg",
+          "filePath": "../public/plasmic/pevilab/images/bg.png"
+        },
+        {
+          "id": "JZXjSSrwEP",
+          "name": "blur 7",
+          "filePath": "../public/plasmic/pevilab/images/blur7.png"
+        },
+        {
+          "id": "PXWzQdN0Ji",
+          "name": "black pic 1",
+          "filePath": "../public/plasmic/pevilab/images/blackPic1.png"
+        },
+        {
+          "id": "I9hapPwWao",
+          "name": "line",
+          "filePath": "../public/plasmic/pevilab/images/line.png"
+        },
+        {
+          "id": "NkNA5sD0UK",
+          "name": "1678407237899 1",
+          "filePath": "../public/plasmic/pevilab/images/_16784072378991.jpeg"
+        },
+        {
+          "id": "V4Qtd0axRa",
+          "name": "lline 1",
+          "filePath": "../public/plasmic/pevilab/images/lline1.png"
+        },
+        {
+          "id": "iF9rKft6sL",
+          "name": "1678411069886 1",
+          "filePath": "../public/plasmic/pevilab/images/_16784110698861.jpeg"
+        },
+        {
+          "id": "fwXYLQHY17",
+          "name": "1678444491112",
+          "filePath": "../public/plasmic/pevilab/images/_1678444491112.png"
+        },
+        {
+          "id": "YxFpIN9Lr6",
+          "name": "1678444491125",
+          "filePath": "../public/plasmic/pevilab/images/_1678444491125.png"
+        },
+        {
+          "id": "iSXfgodC-0",
+          "name": "1676666132211 1",
+          "filePath": "../public/plasmic/pevilab/images/_16766661322111.png"
+        },
+        {
+          "id": "BxlUM6fzPR",
+          "name": "unsplash:Zpzf7TLj_gA",
+          "filePath": "../public/plasmic/pevilab/images/unsplashZpzf7TLjGA.jpeg"
+        },
+        {
+          "id": "dSd8UZkDDd",
+          "name": "unsplash:GH-mSApoKO0",
+          "filePath": "../public/plasmic/pevilab/images/unsplashGhMSApoKo0.jpeg"
+        },
+        {
+          "id": "UKCd5kiW3X",
+          "name": "Rectangle 19",
+          "filePath": "../public/plasmic/pevilab/images/rectangle19.jpeg"
+        },
+        {
+          "id": "iUWfMMpNF-",
+          "name": "Rectangle 20",
+          "filePath": "../public/plasmic/pevilab/images/rectangle20.jpeg"
+        },
+        {
+          "id": "bO2JaseRjk",
+          "name": "Ellipse 1",
+          "filePath": "../public/plasmic/pevilab/images/ellipse1.svg"
+        },
+        {
+          "id": "aDVumceDQ4x",
+          "name": "thin-arrow-right-icon 1",
+          "filePath": "../public/plasmic/pevilab/images/thinArrowRightIcon1.svg"
+        },
+        {
+          "id": "2gFoAdmukUb",
+          "name": "thin-arrow-right-icon 2",
+          "filePath": "../public/plasmic/pevilab/images/thinArrowRightIcon2.svg"
+        },
+        {
+          "id": "_gSezX0NEb1",
+          "name": "thin-arrow-right-icon 3",
+          "filePath": "../public/plasmic/pevilab/images/thinArrowRightIcon3.svg"
+        },
+        {
+          "id": "6AGAbuGR-xz",
+          "name": "Group 2",
+          "filePath": "../public/plasmic/pevilab/images/group2.svg"
+        },
+        {
+          "id": "3r3y4O_OM9i",
+          "name": "quotation-mark-icon 1",
+          "filePath": "../public/plasmic/pevilab/images/quotationMarkIcon1.svg"
+        },
+        {
+          "id": "IrZOHQFROVx",
+          "name": "Rectangle 16",
+          "filePath": "../public/plasmic/pevilab/images/rectangle16.svg"
+        },
+        {
+          "id": "3KLxeiuC0m3",
+          "name": "Rectangle 17",
+          "filePath": "../public/plasmic/pevilab/images/rectangle17.svg"
+        },
+        {
+          "id": "bZjHzCo3rnU",
+          "name": "Rectangle 18",
+          "filePath": "../public/plasmic/pevilab/images/rectangle18.svg"
+        },
+        {
+          "id": "n8jwOWmek9",
+          "name": "commitment-icon 1",
+          "filePath": "../public/plasmic/pevilab/images/commitmentIcon1.svg"
+        },
+        {
+          "id": "yYSikWI6lc",
+          "name": "thin-arrow-right-icon 4",
+          "filePath": "../public/plasmic/pevilab/images/thinArrowRightIcon4.svg"
+        },
+        {
+          "id": "enChOiNPEK",
+          "name": "thin-arrow-right-icon 5",
+          "filePath": "../public/plasmic/pevilab/images/thinArrowRightIcon5.svg"
+        },
+        {
+          "id": "SWu199N-rN",
+          "name": "thin-arrow-right-icon 6",
+          "filePath": "../public/plasmic/pevilab/images/thinArrowRightIcon6.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "ohQeKbdp9P",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "_VqT4eSoQC",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "46MVVY7o4Urob",
+        "name": "Screen",
+        "projectId": "ca27US6C6wuniG46Lxjxb",
+        "contextFilePath": "plasmic/pevilab/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.235",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.235/dist/plasmic.schema.json"
+}

@@ -1,0 +1,3077 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    padding-top: 0px;
+  }
+}
+.webpage {
+  background: rgba(0, 0, 1, 1);
+  width: 1440px;
+  height: 7752px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .webpage {
+    display: none;
+  }
+}
+.bg {
+  background: url("/plasmic/pevilab/images/bg.png") center center / cover no-repeat;
+  width: 1440px;
+  height: 1024px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.blur1 {
+  background: url("/plasmic/pevilab/images/blur7.png") center center / cover no-repeat;
+  width: 1250px;
+  height: 888px;
+  display: block;
+  position: absolute;
+  top: 900px;
+  left: -454px;
+}
+.blur2 {
+  background: url("/plasmic/pevilab/images/blur7.png") center center / cover no-repeat;
+  width: 1836px;
+  height: 1304px;
+  display: block;
+  position: absolute;
+  top: 1431px;
+  left: 531px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .blur2 {
+    height: 1800px;
+    top: 935px;
+  }
+}
+.blur4 {
+  background: url("/plasmic/pevilab/images/blur7.png") center center / cover no-repeat;
+  width: 2876px;
+  height: 2042px;
+  display: block;
+  position: absolute;
+  top: 2392px;
+  left: -1299px;
+}
+.blur6 {
+  background: url("/plasmic/pevilab/images/blur7.png") center center / cover no-repeat;
+  width: 2876px;
+  height: 2042px;
+  display: block;
+  position: absolute;
+  top: 5137px;
+  left: -295px;
+}
+.blur5 {
+  background: url("/plasmic/pevilab/images/blur7.png") center center / cover no-repeat;
+  width: 4324px;
+  height: 3070px;
+  display: block;
+  position: absolute;
+  top: 3196px;
+  left: -1123px;
+}
+.blur3 {
+  background: url("/plasmic/pevilab/images/blur7.png") center center / cover no-repeat;
+  width: 1084px;
+  height: 770px;
+  display: block;
+  position: absolute;
+  top: 760px;
+  left: 805px;
+}
+.text__nhYfq {
+  display: block;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 36px;
+  left: 71px;
+}
+.text__h4S6A {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 58px;
+  left: 503px;
+}
+.text__pWYc {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 58px;
+  left: 604px;
+}
+.text__pPVl {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 58px;
+  left: 737px;
+}
+.text__cUkUg {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 58px;
+  left: 860px;
+}
+.text___4Fm7Y {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 58px;
+  left: 1262px;
+}
+.text__l2GX {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 58px;
+  left: 1303px;
+}
+.img__y7P7W {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 14px;
+  height: 14px;
+  display: block !important;
+  top: 63px;
+  left: 1237px;
+}
+.img__y7P7W > picture > img {
+  object-fit: cover;
+}
+.img__y7P7W > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.svg__ns2K8 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 137px;
+  height: 2px;
+  display: block;
+  top: 232px;
+  left: 74px;
+}
+.text__tgav1 {
+  display: block;
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 219px;
+  left: 227px;
+  width: 292px;
+}
+.text__oacwH {
+  display: block;
+  font-size: 75px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 265px;
+  left: 71px;
+}
+.rectangle1 {
+  background: rgba(0, 59, 255, 1);
+  width: 241px;
+  height: 64px;
+  display: block;
+  position: absolute;
+  top: 856px;
+  left: 74px;
+  border-radius: 8px;
+}
+.rectangle2 {
+  background: rgba(0, 251, 255, 0);
+  width: 241px;
+  height: 64px;
+  display: block;
+  position: absolute;
+  top: 856px;
+  left: 346px;
+  border-radius: 8px;
+}
+.text__r8Hbf {
+  display: block;
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 874px;
+  left: 133px;
+  width: 136px;
+}
+.text__x3Ety {
+  display: block;
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 874px;
+  left: 405px;
+  width: 136px;
+}
+.blackPic1 {
+  background: url("/plasmic/pevilab/images/blackPic1.png") center center / cover no-repeat;
+  width: 604px;
+  height: 402px;
+  display: block;
+  position: absolute;
+  top: 361px;
+  left: 761px;
+}
+.rectangle6 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 1);
+  width: 326px;
+  height: 102px;
+  display: block;
+  position: absolute;
+  top: 286px;
+  left: 1039px;
+  border-radius: 100px;
+}
+.svg__wIIgY {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #003cff;
+  width: 94px;
+  height: 94px;
+  display: block;
+  top: 290px;
+  left: 1045px;
+}
+.svg__euyD {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 47px;
+  height: 41px;
+  display: block;
+  top: 320px;
+  left: 1068px;
+  overflow: hidden;
+}
+.text___5ByIo {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 311px;
+  left: 1150px;
+}
+.text__oadWt {
+  display: block;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 347px;
+  left: 1150px;
+}
+.line {
+  background: url("/plasmic/pevilab/images/line.png") center center / cover no-repeat;
+  width: 140px;
+  height: 144px;
+  display: block;
+  position: absolute;
+  top: 719px;
+  left: 851px;
+}
+.line2 {
+  background: url("/plasmic/pevilab/images/line.png") center center / cover no-repeat;
+  width: 140px;
+  height: 144px;
+  display: block;
+  position: absolute;
+  top: 1646px;
+  left: 664px;
+}
+.rectangle7 {
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 1);
+  width: 363px;
+  height: 241px;
+  display: block;
+  position: absolute;
+  top: 707px;
+  left: 968px;
+  border-radius: 12px;
+}
+.rectangle8 {
+  background: rgba(28, 80, 253, 0.67);
+  width: 85px;
+  height: 74px;
+  display: block;
+  position: absolute;
+  top: 746px;
+  left: 996px;
+  border-radius: 10px;
+}
+.rectangle9 {
+  background: rgba(0, 251, 255, 0.409);
+  width: 85px;
+  height: 74px;
+  display: block;
+  position: absolute;
+  top: 835px;
+  left: 996px;
+  border-radius: 10px;
+}
+.text__qextE {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 755px;
+  left: 1111px;
+}
+.text__y5Ett {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 842px;
+  left: 1111px;
+}
+.text__xyRjI {
+  display: block;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 796px;
+  left: 1111px;
+}
+.text__tbQc1 {
+  display: block;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 883px;
+  left: 1111px;
+}
+.svg__lz0D6 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  transform: translate(0px, -0.3809999999998581px);
+  width: 48px;
+  height: 121px;
+  display: block;
+  top: 40.19%;
+  left: 70.48%;
+}
+.qualityBadgeStarIcon {
+  width: 41px;
+  height: 41px;
+  display: block;
+  position: absolute;
+  top: 765px;
+  left: 1018px;
+  overflow: hidden;
+}
+.svg__mWPtR {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 41px;
+  height: 41px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.r1 {
+  background: rgba(28, 80, 253, 1);
+  width: 347px;
+  height: 234px;
+  display: block;
+  position: absolute;
+  top: 1240px;
+  left: 71px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.lline1 {
+  background: url("/plasmic/pevilab/images/lline1.png") center center / cover no-repeat;
+  width: 366px;
+  height: 251px;
+  display: block;
+  position: absolute;
+  top: -14px;
+  left: -19px;
+}
+.text___7Vrow {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 52px;
+  left: 68px;
+  width: 173px;
+}
+.text__ywbLq {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 153px;
+  left: 68px;
+  width: 101px;
+}
+.svg__fudg {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 74px;
+  height: 1px;
+  display: block;
+  top: 174px;
+  left: 170px;
+}
+.svg__doA2S {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 40px;
+  height: 40px;
+  display: block;
+  top: 151px;
+  left: 255px;
+}
+.img__cbqEo {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: scale(0.9999929999754998, 0.9992979951104487)
+    rotate(-44.02760489265955deg) skew(-0.0411962351181519deg, 0deg)
+    translate(0px, 0.28600000000000136px);
+  width: 22px;
+  height: 18px;
+  display: block !important;
+  transform-origin: top left;
+  top: 173px;
+  left: 261px;
+  overflow: hidden;
+}
+.img__cbqEo > picture > img {
+  object-fit: cover;
+}
+.img__cbqEo > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.r12 {
+  background: rgba(28, 80, 253, 1);
+  width: 347px;
+  height: 234px;
+  display: block;
+  position: absolute;
+  top: 1240px;
+  left: 473px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.lline2 {
+  background: url("/plasmic/pevilab/images/lline1.png") center center / cover no-repeat;
+  width: 366px;
+  height: 251px;
+  display: block;
+  position: absolute;
+  top: -14px;
+  left: -19px;
+}
+.text__ekrD {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 55px;
+  left: 68px;
+  width: 218px;
+}
+.text__w9T39 {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 153px;
+  left: 68px;
+  width: 101px;
+}
+.svg__np3I1 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 74px;
+  height: 1px;
+  display: block;
+  top: 174px;
+  left: 170px;
+}
+.svg___0TQxr {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 40px;
+  height: 40px;
+  display: block;
+  top: 151px;
+  left: 255px;
+}
+.img__epRo0 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: scale(0.9999929999754998, 0.9992979951104487)
+    rotate(-44.02760489265955deg) skew(-0.0411962351181519deg, 0deg)
+    translate(0px, 0.28600000000000136px);
+  width: 22px;
+  height: 18px;
+  display: block !important;
+  transform-origin: top left;
+  top: 173px;
+  left: 261px;
+  overflow: hidden;
+}
+.img__epRo0 > picture > img {
+  object-fit: cover;
+}
+.img__epRo0 > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.r13 {
+  background: linear-gradient(
+      246deg,
+      rgba(1, 241, 253, 1) 20%,
+      rgba(28, 80, 253, 1) 104%
+    )
+    0% 0% / 100% 100% no-repeat;
+  width: 510px;
+  height: 234px;
+  display: block;
+  position: absolute;
+  top: 1240px;
+  left: 875px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.text__n0Vk7 {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 55px;
+  left: 68px;
+  width: 331px;
+}
+.text__tmffT {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 153px;
+  left: 68px;
+  width: 101px;
+}
+.svg___9HsCx {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 192px;
+  height: 1px;
+  display: block;
+  top: 174px;
+  left: 170px;
+}
+.svg__hlsAw {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 40px;
+  height: 40px;
+  display: block;
+  top: 151px;
+  left: 377px;
+}
+.img__aue4V {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: scale(0.9999929999754998, 0.9992979951104487)
+    rotate(-44.02760489265955deg) skew(-0.0411962351181519deg, 0deg)
+    translate(0px, 0.28600000000000136px);
+  width: 22px;
+  height: 18px;
+  display: block !important;
+  transform-origin: top left;
+  top: 173px;
+  left: 383px;
+  overflow: hidden;
+}
+.img__aue4V > picture > img {
+  object-fit: cover;
+}
+.img__aue4V > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.r14 {
+  background: linear-gradient(
+      236deg,
+      rgba(1, 241, 253, 1) 25%,
+      rgba(28, 80, 253, 1) 151%
+    )
+    0% 0% / 100% 100% no-repeat;
+  width: 1291px;
+  height: 829px;
+  display: block;
+  position: absolute;
+  top: 2834px;
+  left: 74px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.text__nqFxp {
+  display: block;
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 91px;
+  left: 207px;
+  width: 564px;
+  height: 58px;
+}
+.text__gPot5 {
+  display: block;
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 329px;
+  left: 207px;
+  width: 564px;
+  height: 58px;
+}
+.text___6Asxi {
+  display: block;
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 610px;
+  left: 207px;
+  width: 564px;
+  height: 58px;
+}
+.svg__unjCy {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 98px;
+  height: 98px;
+  display: block;
+  top: 70px;
+  left: 72px;
+}
+.svg__x1GeO {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 98px;
+  height: 98px;
+  display: block;
+  top: 341px;
+  left: 72px;
+}
+.svg__oUySz {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 98px;
+  height: 98px;
+  display: block;
+  top: 637px;
+  left: 72px;
+}
+.text__j6I9C {
+  display: block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 95px;
+  left: 97px;
+  width: 49px;
+}
+.text__s4NVk {
+  display: block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 366px;
+  left: 94px;
+  width: 60px;
+}
+.text__pOtA3 {
+  display: block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 662px;
+  left: 94px;
+  width: 60px;
+}
+.text__ppkZu {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 171px;
+  left: 207px;
+  width: 948px;
+  height: 71px;
+}
+.text__aFpEa {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 409px;
+  left: 207px;
+  width: 948px;
+  height: 71px;
+}
+.text___2DTb4 {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 690px;
+  left: 207px;
+  width: 948px;
+  height: 71px;
+}
+.svg__rW7AS {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 74px;
+  height: 3px;
+  display: block;
+  top: 130px;
+  left: 765px;
+}
+.svg__pkb5P {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 74px;
+  height: 3px;
+  display: block;
+  top: 368px;
+  left: 711px;
+}
+.svg__sdunc {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 74px;
+  height: 3px;
+  display: block;
+  top: 649px;
+  left: 711px;
+}
+.rectangle14 {
+  background: rgba(28, 80, 253, 1);
+  width: 1304px;
+  height: 733px;
+  display: block;
+  position: absolute;
+  top: 4151px;
+  left: 61px;
+  border-radius: 12px;
+}
+.text__r7R4 {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 4382px;
+  left: 96px;
+  width: 239px;
+  height: 251px;
+}
+.rectangle10 {
+  background: rgba(216, 216, 216, 1);
+  width: 526px;
+  height: 760px;
+  display: block;
+  position: absolute;
+  top: 1724px;
+  left: 71px;
+}
+._16784072378991 {
+  background: url("/plasmic/pevilab/images/_16784072378991.jpeg") center center / cover no-repeat;
+  width: 471px;
+  height: 706px;
+  display: block;
+  position: absolute;
+  top: 1751px;
+  left: 97px;
+}
+.text__rSj4E {
+  display: block;
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 1823px;
+  left: 731px;
+}
+.text__iaoDe {
+  display: block;
+  font-size: 70px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 2680px;
+  left: 436px;
+}
+.text___70QkT {
+  display: block;
+  font-size: 70px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 3970px;
+  left: 488px;
+}
+.text___4NClc {
+  display: block;
+  font-size: 70px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 1103px;
+  left: 370px;
+}
+.text___8HeIt {
+  display: block;
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 2137px;
+  left: 731px;
+  width: 684px;
+}
+.text__ngjnP {
+  display: block;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 2331px;
+  left: 734px;
+  width: 106px;
+}
+.svg__f1Vlg {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  transform: scale(1, -1);
+  width: 24px;
+  height: 12px;
+  display: block;
+  transform-origin: top left;
+  top: 2354px;
+  left: 836px;
+  overflow: hidden;
+}
+.text__z2ESu {
+  display: block;
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 5232px;
+  left: 506px;
+}
+.ay {
+  width: 402px;
+  height: 633px;
+  display: block;
+  position: absolute;
+  top: 5527px;
+  left: -257px;
+  overflow: hidden;
+  -webkit-mask-image: var(--image--PLtXfsHU2F);
+  -webkit-mask-size: 295px 295px;
+  -webkit-mask-repeat: no-repeat;
+}
+._16784110698861 {
+  background: url("/plasmic/pevilab/images/_16784110698861.jpeg") center center / cover no-repeat;
+  width: 306px;
+  height: 608px;
+  display: block;
+  position: absolute;
+  top: 47px;
+  left: 58px;
+}
+.text___5Ylnt {
+  display: block;
+  font-size: 23px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 5939px;
+  left: -161px;
+  width: 210px;
+  height: 34px;
+}
+.text__rosKj {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 5995px;
+  left: -228px;
+  width: 343px;
+  height: 87px;
+}
+.ay2 {
+  width: 402px;
+  height: 633px;
+  display: block;
+  position: absolute;
+  top: 5527px;
+  left: 1295px;
+  overflow: hidden;
+  -webkit-mask-image: var(--image--PLtXfsHU2F);
+  -webkit-mask-size: 295px 295px;
+  -webkit-mask-repeat: no-repeat;
+}
+._16784110698862 {
+  background: url("/plasmic/pevilab/images/_16784110698861.jpeg") center center / cover no-repeat;
+  width: 306px;
+  height: 608px;
+  display: block;
+  position: absolute;
+  top: 47px;
+  left: 58px;
+}
+.text__xqLmq {
+  display: block;
+  font-size: 23px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 5939px;
+  left: 1391px;
+  width: 210px;
+  height: 34px;
+}
+.text__r5UzF {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 5995px;
+  left: 1324px;
+  width: 343px;
+  height: 87px;
+}
+.wonder {
+  width: 468px;
+  height: 737px;
+  display: block;
+  position: absolute;
+  top: 5455px;
+  left: 856px;
+  overflow: hidden;
+  -webkit-mask-image: var(--image-gioTYHUkbLW);
+  -webkit-mask-size: 399px 398px;
+  -webkit-mask-repeat: no-repeat;
+}
+._1678444491112 {
+  background: url("/plasmic/pevilab/images/_1678444491112.png") center center / cover no-repeat;
+  width: 414px;
+  height: 624px;
+  display: block;
+  position: absolute;
+  top: 51px;
+  left: 36px;
+}
+.mekus {
+  width: 468px;
+  height: 737px;
+  display: block;
+  position: absolute;
+  top: 5455px;
+  left: 112px;
+  overflow: hidden;
+  -webkit-mask-image: var(--image-gioTYHUkbLW);
+  -webkit-mask-size: 399px 398px;
+  -webkit-mask-repeat: no-repeat;
+}
+._1678444491125 {
+  background: url("/plasmic/pevilab/images/_1678444491125.png") center center / cover no-repeat;
+  width: 958px;
+  height: 1280px;
+  display: block;
+  position: absolute;
+  top: -137px;
+  left: -245px;
+}
+.text__tm20W {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(3, 11, 34, 0.699);
+  position: absolute;
+  top: 5931px;
+  left: 1044px;
+}
+.text__gmbNt {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(3, 11, 34, 0.699);
+  position: absolute;
+  top: 5931px;
+  left: 289px;
+}
+.text__tLkt7 {
+  display: block;
+  font-size: 23px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.699);
+  position: absolute;
+  top: 6007px;
+  left: 990px;
+  width: 203px;
+}
+.text__amVbN {
+  display: block;
+  font-size: 23px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.699);
+  position: absolute;
+  top: 6007px;
+  left: 166px;
+  width: 360px;
+}
+.text__mrk0Z {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.699);
+  position: absolute;
+  top: 6047px;
+  left: 892px;
+  width: 399px;
+  height: 101px;
+}
+.ademola {
+  width: 560px;
+  height: 885px;
+  display: block;
+  position: absolute;
+  top: 5381px;
+  left: 446px;
+  overflow: hidden;
+  -webkit-mask-image: var(--image-S8AszAW96HH);
+  -webkit-mask-size: 424px 424px;
+  -webkit-mask-repeat: no-repeat;
+  opacity: 1;
+}
+._16766661322111 {
+  background: url("/plasmic/pevilab/images/_16766661322111.png") center center / cover no-repeat;
+  width: 514px;
+  height: 642px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: -16px;
+}
+.text__yxYw {
+  display: block;
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(3, 11, 34, 1);
+  position: absolute;
+  top: 5902px;
+  left: 576px;
+}
+.text__bN4M {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 5992px;
+  left: 465px;
+  width: 521px;
+}
+.line3 {
+  background: url("/plasmic/pevilab/images/line.png") center center / cover no-repeat;
+  transform: scale(1.0007022534200671, 1.000616313771479)
+    rotate(-175.06993950067576deg) skew(0.05704372686416264deg, 0deg)
+    translate(0.48700000000008004px, 0.44399999999996px);
+  width: 140px;
+  height: 144px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 2872px;
+  left: 1150px;
+}
+.text__vzGo {
+  display: block;
+  font-size: 70px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 6689px;
+  left: 71px;
+}
+.text___6R4Sf {
+  display: block;
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 7145px;
+  left: 71px;
+}
+.rectangle12 {
+  background: rgba(0, 251, 255, 0);
+  width: 473px;
+  height: 64px;
+  display: block;
+  position: absolute;
+  top: 6904px;
+  left: 78px;
+  border-radius: 8px;
+}
+.text__zbMy {
+  display: block;
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 6922px;
+  left: 123px;
+  width: 136px;
+}
+.text___2Tp5S {
+  display: block;
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 6922px;
+  left: 353px;
+  width: 186px;
+}
+.svg__oQjeX {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #d9d9d9;
+  width: 60px;
+  height: 60px;
+  display: block;
+  top: 7464px;
+  left: 919px;
+}
+.svg__a4K5W {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #d9d9d9;
+  width: 60px;
+  height: 60px;
+  display: block;
+  top: 7464px;
+  left: 1031px;
+}
+.svg___7HP6N {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #d9d9d9;
+  width: 60px;
+  height: 60px;
+  display: block;
+  top: 7464px;
+  left: 1143px;
+}
+.img__ooj3X {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: scale(1, -1) translate(0px, 0.38799999999991996px);
+  width: 33.575px;
+  height: 41.339px;
+  display: block !important;
+  transform-origin: top left;
+  top: 7513px;
+  left: 932px;
+}
+.img__ooj3X > picture > img {
+  object-fit: cover;
+}
+.img__ooj3X > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.svg__ktvqB {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  transform: translate(0.3989999999998872px, -0.18000000000029104px);
+  width: 38px;
+  height: 37.497px;
+  display: block;
+  top: 7475px;
+  left: 1041px;
+}
+.linkedin {
+  transform: translate(0.3989999999998872px, 0px);
+  width: 34px;
+  height: 41px;
+  display: block;
+  position: absolute;
+  top: 7470px;
+  left: 1156px;
+}
+.svg__e8KoG {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  transform: translate(0px, 0.05199999999967986px);
+  width: 8px;
+  height: 29px;
+  display: block;
+  top: 29.28%;
+  left: 0%;
+}
+.svg__vGhV {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  transform: translate(0px, 0.05199999999967986px);
+  width: 2px;
+  height: 29px;
+  display: block;
+  top: 29.28%;
+  left: 0%;
+}
+.svg__eUr3 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  transform: translate(0px, 0.05199999999967986px);
+  width: 23px;
+  height: 29px;
+  display: block;
+  top: 29.28%;
+  left: 32.35%;
+}
+.svg___57Tjq {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  transform: translate(0.06600000000003092px, 0.3500000000003638px);
+  width: 17.199px;
+  height: 28.626px;
+  display: block;
+  top: 12px;
+  left: 11px;
+}
+.svg__ihylk {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 8px;
+  height: 10px;
+  display: block;
+  top: 0%;
+  left: 0%;
+}
+.svg__xD6Oi {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  transform: translate(0px, 0.20499999999992724px);
+  width: 8px;
+  height: 9px;
+  display: block;
+  top: 2.44%;
+  left: 0%;
+}
+.rectangle13 {
+  background: rgba(255, 244, 0, 1);
+  width: 241px;
+  height: 64px;
+  display: block;
+  position: absolute;
+  top: 7273px;
+  left: 1106px;
+}
+.rectangle15 {
+  background: rgba(0, 59, 255, 0);
+  box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 1);
+  width: 373px;
+  height: 64px;
+  display: block;
+  position: absolute;
+  top: 7273px;
+  left: 734px;
+}
+.text___1NZ9C {
+  display: block;
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 566px;
+  left: 74px;
+  width: 684px;
+}
+.text__cHuQq {
+  display: block;
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 7273px;
+  left: 65px;
+  width: 684px;
+}
+.line4 {
+  background: url("/plasmic/pevilab/images/line.png") center center / cover no-repeat;
+  transform: scale(1.0000719974081866, 0.9990720694004115)
+    rotate(-90.6875163546391deg) skew(0.0006874503612719636deg, 0deg)
+    translate(-0.40999999999996817px, -0.3739999999997963px);
+  width: 140px;
+  height: 144px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 6969px;
+  left: 605px;
+}
+.svg__n9S7 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 74px;
+  height: 3px;
+  display: block;
+  top: 6940px;
+  left: 263px;
+}
+.text___78PJc {
+  display: block;
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 7290px;
+  left: 1167px;
+  width: 136px;
+}
+.text__qpNw2 {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 7484px;
+  left: 734px;
+  width: 136px;
+}
+.svg__wNq5Y {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 168px;
+  height: 168px;
+  display: block;
+  top: 4067px;
+  left: 114px;
+}
+.img___0Sfve {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 88px;
+  height: 65px;
+  display: block !important;
+  top: 4118px;
+  left: 154px;
+  overflow: hidden;
+}
+.img___0Sfve > picture > img {
+  object-fit: cover;
+}
+.img___0Sfve > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.frame1 {
+  background: rgba(255, 255, 255, 1);
+  width: 330px;
+  height: 432px;
+  display: block;
+  position: absolute;
+  top: 4290px;
+  left: 366px;
+  overflow: hidden;
+}
+.img__ter {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 334px;
+  height: 211px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img__ter > picture > img {
+  object-fit: cover;
+}
+.img__ter > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.text__bUfBq {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 337px;
+  left: 25px;
+  width: 184px;
+  height: 38px;
+}
+.text__mo2Bz {
+  display: block;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 226px;
+  left: 25px;
+  width: 274px;
+  height: 119px;
+}
+.text___8PJzq {
+  display: block;
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 373px;
+  left: 25px;
+  width: 149px;
+  height: 38px;
+}
+.frame2 {
+  background: rgba(255, 255, 255, 1);
+  width: 330px;
+  height: 432px;
+  display: block;
+  position: absolute;
+  top: 4290px;
+  left: 710px;
+  overflow: hidden;
+}
+.maskGroup {
+  width: 330px;
+  height: 216px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-mask-image: url("/plasmic/pevilab/images/rectangle17.svg");
+  -webkit-mask-size: 330px 216px;
+  -webkit-mask-repeat: no-repeat;
+}
+.unsplashZpzf7TLjGa {
+  background: url("/plasmic/pevilab/images/unsplashZpzf7TLjGA.jpeg") center center / cover no-repeat;
+  width: 337px;
+  height: 506px;
+  display: block;
+  position: absolute;
+  top: -60px;
+  left: -4px;
+}
+.text__u3ASg {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 337px;
+  left: 25px;
+  width: 166px;
+  height: 38px;
+}
+.text__tUusv {
+  display: block;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 226px;
+  left: 25px;
+  width: 274px;
+  height: 119px;
+}
+.text__lGvwQ {
+  display: block;
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 373px;
+  left: 25px;
+  width: 149px;
+  height: 38px;
+}
+.frame3 {
+  background: rgba(255, 255, 255, 1);
+  width: 330px;
+  height: 432px;
+  display: block;
+  position: absolute;
+  top: 4290px;
+  left: 1054px;
+  overflow: hidden;
+}
+.maskGroup2 {
+  width: 334px;
+  height: 211px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-mask-image: url("/plasmic/pevilab/images/rectangle18.svg");
+  -webkit-mask-size: 334px 211px;
+  -webkit-mask-repeat: no-repeat;
+}
+.unsplashGhMsApoKo0 {
+  background: url("/plasmic/pevilab/images/unsplashGhMSApoKo0.jpeg") center center / cover no-repeat;
+  width: 392px;
+  height: 261px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.text__bsC41 {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 337px;
+  left: 25px;
+  width: 180px;
+  height: 38px;
+}
+.text__toCdi {
+  display: block;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 226px;
+  left: 25px;
+  width: 274px;
+  height: 119px;
+}
+.text__md84A {
+  display: block;
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 373px;
+  left: 25px;
+  width: 149px;
+  height: 38px;
+}
+.rectangle17 {
+  background: rgba(255, 244, 0, 0.8);
+  width: 42px;
+  height: 36px;
+  display: block;
+  position: absolute;
+  top: 4746px;
+  left: 369px;
+}
+.rectangle18 {
+  background: rgba(255, 244, 0, 1);
+  width: 42px;
+  height: 36px;
+  display: block;
+  position: absolute;
+  top: 4746px;
+  left: 411px;
+}
+.svg__pSdU {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  display: block;
+  top: 4762px;
+  left: 811px;
+}
+.svg__kx7Hx {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  display: block;
+  top: 4762px;
+  left: 835px;
+}
+.svg__uE50B {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 14px;
+  height: 15px;
+  display: block;
+  top: 4762px;
+  left: 860px;
+}
+.svg___5W1Sy {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  display: block;
+  top: 4762px;
+  left: 885px;
+}
+.svg__bxmr2 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  display: block;
+  top: 4762px;
+  left: 911px;
+}
+.triangleBottomArrowIcon1 {
+  transform: scale(0.9990980932821362, 1.000097995100303)
+    rotate(89.197108700841deg) skew(-0.0008035897855138449deg, 0deg)
+    translate(-0.2740000000000009px, 0.15999999999985448px);
+  width: 24px;
+  height: 13px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 4753px;
+  left: 393px;
+  overflow: hidden;
+}
+.svg___3VCCv {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 23.299px;
+  height: 12.116px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.triangleBottomArrowIcon2 {
+  transform: scale(1.0000079999680003, 0.9990080079679042)
+    rotate(-90.22918189575411deg) skew(0.00022917945117986884deg, 0deg)
+    translate(0.21300000000002228px, -0.43000000000029104px);
+  width: 24px;
+  height: 13px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 4705px;
+  right: 989px;
+  overflow: hidden;
+}
+.svg__lHyBv {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 23.299px;
+  height: 12.116px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.iPhone14Pro1 {
+  background: rgba(0, 0, 0, 1);
+  width: 393px;
+  height: 7592px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bg2 {
+  background: url("/plasmic/pevilab/images/bg.png") center center / cover no-repeat;
+  width: 1440px;
+  height: 1024px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: -52px;
+}
+.blur7 {
+  background: url("/plasmic/pevilab/images/blur7.png") center center / cover no-repeat;
+  width: 1084px;
+  height: 770px;
+  display: block;
+  position: absolute;
+  top: 404px;
+  left: -97px;
+}
+.blur8 {
+  background: url("/plasmic/pevilab/images/blur7.png") center center / cover no-repeat;
+  width: 1084px;
+  height: 770px;
+  display: block;
+  position: absolute;
+  top: 933px;
+  left: -416px;
+}
+.blur9 {
+  background: url("/plasmic/pevilab/images/blur7.png") center center / cover no-repeat;
+  width: 1084px;
+  height: 770px;
+  display: block;
+  position: absolute;
+  top: 1924px;
+  left: -215px;
+}
+.blur10 {
+  background: url("/plasmic/pevilab/images/blur7.png") center center / cover no-repeat;
+  width: 1084px;
+  height: 770px;
+  display: block;
+  position: absolute;
+  top: 2979px;
+  left: -373px;
+}
+.text__clMjo {
+  display: block;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 26px;
+  left: 22px;
+}
+.svg__dHlw0 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 22px;
+  height: 1px;
+  top: 38px;
+  left: 344px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__dHlw0 {
+    display: block;
+  }
+}
+.svg__f6Lqf {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 22px;
+  height: 1px;
+  top: 45px;
+  left: 344px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__f6Lqf {
+    display: block;
+  }
+}
+.svg__tAw07 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 66px;
+  height: 2px;
+  top: 105px;
+  left: 22px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__tAw07 {
+    display: block;
+  }
+}
+.text__qzHd4 {
+  display: block;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 96px;
+  left: 93px;
+  width: 292px;
+}
+.text__fDVl {
+  display: block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 60px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 114px;
+  left: 18px;
+}
+.text__nTpQr {
+  display: block;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 310px;
+  left: 22px;
+  width: 344px;
+}
+.blackPic2 {
+  background: url("/plasmic/pevilab/images/blackPic1.png") center center / cover no-repeat;
+  width: 344px;
+  height: 229px;
+  display: block;
+  position: absolute;
+  top: 779px;
+  left: 25px;
+}
+.rectangle11 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: 736px;
+  left: 183px;
+  border-radius: 100px;
+}
+.svg__z30Le {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #003cff;
+  width: 53px;
+  height: 54px;
+  top: 738px;
+  left: 187px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__z30Le {
+    display: block;
+  }
+}
+.svg__iIzGp {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 27px;
+  height: 24px;
+  top: 755px;
+  left: 200px;
+  overflow: hidden;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__iIzGp {
+    display: block;
+  }
+}
+.text__p9X9N {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 749px;
+  left: 247px;
+  width: 70px;
+  height: 21px;
+}
+.text__ovjJk {
+  display: block;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 771px;
+  left: 247px;
+  width: 108px;
+  height: 12px;
+}
+.line5 {
+  background: url("/plasmic/pevilab/images/line.png") center center / cover no-repeat;
+  width: 80px;
+  height: 82px;
+  display: block;
+  position: absolute;
+  top: 983px;
+  left: 76px;
+}
+.rectangle16 {
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 1);
+  width: 207px;
+  height: 138px;
+  display: block;
+  position: absolute;
+  top: 976px;
+  left: 143px;
+  border-radius: 12px;
+}
+.rectangle19 {
+  background: rgba(28, 80, 253, 0.67);
+  width: 48px;
+  height: 42px;
+  display: block;
+  position: absolute;
+  top: 999px;
+  left: 159px;
+  border-radius: 10px;
+}
+.rectangle20 {
+  background: rgba(0, 251, 255, 0.409);
+  width: 48px;
+  height: 43px;
+  display: block;
+  position: absolute;
+  top: 1049px;
+  left: 159px;
+  border-radius: 10px;
+}
+.text__sr4Ls {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 1004px;
+  left: 224px;
+  width: 62px;
+  height: 20px;
+}
+.text___64RdY {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 1053px;
+  left: 224px;
+  width: 48px;
+  height: 21px;
+}
+.text___6A0P {
+  display: block;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 1027px;
+  left: 224px;
+  width: 126px;
+  height: 13px;
+}
+.text__uIuSo {
+  display: block;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 1077px;
+  left: 224px;
+  width: 103px;
+  height: 12px;
+}
+.qualityBadgeStarIcon2 {
+  width: 24px;
+  height: 23px;
+  display: block;
+  position: absolute;
+  top: 1010px;
+  left: 171px;
+  overflow: hidden;
+}
+.svg___9BDK {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 24px;
+  height: 23px;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg___9BDK {
+    display: block;
+  }
+}
+.img___3VNcc {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 30px;
+  height: 22px;
+  top: 1060px;
+  left: 167px;
+  overflow: hidden;
+  display: none !important;
+}
+.img___3VNcc > picture > img {
+  object-fit: cover;
+}
+.img___3VNcc > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img___3VNcc {
+    display: block !important;
+  }
+}
+.rectangle3 {
+  background: rgba(0, 59, 255, 1);
+  width: 241px;
+  height: 64px;
+  display: block;
+  position: absolute;
+  top: 533px;
+  left: 29px;
+  border-radius: 8px;
+}
+.rectangle4 {
+  background: rgba(0, 251, 255, 0);
+  width: 241px;
+  height: 64px;
+  display: block;
+  position: absolute;
+  top: 629px;
+  left: 35px;
+  border-radius: 8px;
+}
+.text__xmlRg {
+  display: block;
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 551px;
+  left: 88px;
+  width: 136px;
+}
+.text__jYdw0 {
+  display: block;
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 647px;
+  left: 94px;
+  width: 136px;
+}
+.text__epB2T {
+  display: block;
+  font-size: 35px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 1216px;
+  left: 22px;
+}
+.r15 {
+  background: rgba(28, 80, 253, 1);
+  width: 347px;
+  height: 234px;
+  display: block;
+  position: absolute;
+  top: 1342px;
+  left: 21px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.lline3 {
+  background: url("/plasmic/pevilab/images/lline1.png") center center / cover no-repeat;
+  width: 366px;
+  height: 251px;
+  display: block;
+  position: absolute;
+  top: -14px;
+  left: -19px;
+}
+.text___7PLaQ {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 52px;
+  left: 68px;
+  width: 173px;
+}
+.text__fHj {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 153px;
+  left: 68px;
+  width: 101px;
+}
+.svg__bFrme {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 74px;
+  height: 1px;
+  top: 174px;
+  left: 170px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__bFrme {
+    display: block;
+  }
+}
+.svg__jzWq9 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 40px;
+  height: 40px;
+  top: 151px;
+  left: 255px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__jzWq9 {
+    display: block;
+  }
+}
+.img__khR {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: scale(0.9999929999754998, 0.9992979951104487)
+    rotate(-44.02760489265955deg) skew(-0.0411962351181519deg, 0deg)
+    translate(0px, 0.28600000000000136px);
+  width: 22px;
+  height: 18px;
+  transform-origin: top left;
+  top: 173px;
+  left: 261px;
+  overflow: hidden;
+  display: none !important;
+}
+.img__khR > picture > img {
+  object-fit: cover;
+}
+.img__khR > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img__khR {
+    display: block !important;
+  }
+}
+.r16 {
+  background: rgba(28, 80, 253, 1);
+  width: 347px;
+  height: 234px;
+  display: block;
+  position: absolute;
+  top: 1621px;
+  left: 21px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.lline4 {
+  background: url("/plasmic/pevilab/images/lline1.png") center center / cover no-repeat;
+  width: 366px;
+  height: 251px;
+  display: block;
+  position: absolute;
+  top: -14px;
+  left: -19px;
+}
+.text__aITq {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 55px;
+  left: 68px;
+  width: 218px;
+}
+.text__nycp {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 153px;
+  left: 68px;
+  width: 101px;
+}
+.svg__rrVHl {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 74px;
+  height: 1px;
+  top: 174px;
+  left: 170px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__rrVHl {
+    display: block;
+  }
+}
+.svg__mrucS {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 40px;
+  height: 40px;
+  top: 151px;
+  left: 255px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__mrucS {
+    display: block;
+  }
+}
+.img___55Mqu {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: scale(0.9999929999754998, 0.9992979951104487)
+    rotate(-44.02760489265955deg) skew(-0.0411962351181519deg, 0deg)
+    translate(0px, 0.28600000000000136px);
+  width: 22px;
+  height: 18px;
+  transform-origin: top left;
+  top: 173px;
+  left: 261px;
+  overflow: hidden;
+  display: none !important;
+}
+.img___55Mqu > picture > img {
+  object-fit: cover;
+}
+.img___55Mqu > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img___55Mqu {
+    display: block !important;
+  }
+}
+.r17 {
+  background: linear-gradient(
+      233deg,
+      rgba(1, 241, 253, 1) 22%,
+      rgba(28, 80, 253, 1) 104%
+    )
+    0% 0% / 100% 100% no-repeat;
+  width: 347px;
+  height: 276px;
+  display: block;
+  position: absolute;
+  top: 1900px;
+  left: 21px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.text__ul9Ei {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 55px;
+  left: 68px;
+  width: 331px;
+}
+.text___3HiKn {
+  display: block;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 199px;
+  left: 68px;
+  width: 101px;
+}
+.svg__rra3 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 64px;
+  height: 1px;
+  top: 220px;
+  left: 170px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__rra3 {
+    display: block;
+  }
+}
+.svg__ywLiC {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 40px;
+  height: 40px;
+  top: 197px;
+  left: 251px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__ywLiC {
+    display: block;
+  }
+}
+.img__yKg9D {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: scale(0.9999929999754998, 0.9992979951104487)
+    rotate(-44.02760489265955deg) skew(-0.0411962351181519deg, 0deg)
+    translate(0px, 0.28600000000000136px);
+  width: 22px;
+  height: 18px;
+  transform-origin: top left;
+  top: 219px;
+  left: 257px;
+  overflow: hidden;
+  display: none !important;
+}
+.img__yKg9D > picture > img {
+  object-fit: cover;
+}
+.img__yKg9D > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img__yKg9D {
+    display: block !important;
+  }
+}
+.text__nviom {
+  display: block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 60px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 2279px;
+  left: 26px;
+}
+.text__qBVph {
+  display: block;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 2476px;
+  left: 29px;
+  width: 333px;
+}
+.svg__gXiC {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  transform: scale(1, -1);
+  width: 16px;
+  height: 8px;
+  transform-origin: top left;
+  top: 2647px;
+  left: 85px;
+  overflow: hidden;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__gXiC {
+    display: block;
+  }
+}
+.rectangle21 {
+  background: rgba(216, 216, 216, 1);
+  width: 356px;
+  height: 514px;
+  display: block;
+  position: absolute;
+  top: 2763px;
+  left: 21px;
+}
+._16784072378992 {
+  background: url("/plasmic/pevilab/images/_16784072378991.jpeg") center center / cover no-repeat;
+  width: 318px;
+  height: 478px;
+  display: block;
+  position: absolute;
+  top: 2781px;
+  left: 40px;
+}
+.line6 {
+  background: url("/plasmic/pevilab/images/line.png") center center / cover no-repeat;
+  width: 140px;
+  height: 144px;
+  display: block;
+  position: absolute;
+  top: 2647px;
+  left: 142px;
+}
+.text__odAx {
+  display: block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 90px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 3402px;
+  left: 36px;
+}
+.r18 {
+  background: linear-gradient(
+      197deg,
+      rgba(1, 241, 253, 1) 12%,
+      rgba(28, 80, 253, 1) 139%
+    )
+    0% 0% / 100% 100% no-repeat;
+  width: 366px;
+  height: 1140px;
+  display: block;
+  position: absolute;
+  top: 3528px;
+  left: 14px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.text__uir1T {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 161px;
+  left: 26px;
+  width: 327px;
+  height: 53px;
+}
+.text___1LlAl {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 527px;
+  left: 40px;
+  width: 319px;
+  height: 58px;
+}
+.text__iXl9D {
+  display: block;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 917px;
+  left: 48px;
+  width: 304px;
+  height: 44px;
+}
+.svg__xlDj {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 98px;
+  height: 98px;
+  top: 32px;
+  left: 132px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__xlDj {
+    display: block;
+  }
+}
+.svg__gMzBu {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 98px;
+  height: 98px;
+  top: 398px;
+  left: 135px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__gMzBu {
+    display: block;
+  }
+}
+.svg__xhM0S {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff500;
+  width: 98px;
+  height: 98px;
+  top: 788px;
+  left: 135px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__xhM0S {
+    display: block;
+  }
+}
+.text__nxpEk {
+  display: block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 57px;
+  left: 157px;
+  width: 49px;
+}
+.text__vmQbn {
+  display: block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 423px;
+  left: 157px;
+  width: 60px;
+}
+.text__u0Rl {
+  display: block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 813px;
+  left: 154px;
+  width: 60px;
+}
+.text__aFzNw {
+  display: block;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 204px;
+  left: 26px;
+  width: 327px;
+  height: 118px;
+}
+.text__reQFj {
+  display: block;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 585px;
+  left: 36px;
+  width: 290px;
+  height: 124px;
+}
+.text__x1IuG {
+  display: block;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 967px;
+  left: 43px;
+  width: 296px;
+  height: 118px;
+}
+.svg__tpqBo {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 74px;
+  height: 3px;
+  top: 130px;
+  left: 763px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__tpqBo {
+    display: block;
+  }
+}
+.svg__wwUfJ {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 74px;
+  height: 3px;
+  top: 368px;
+  left: 709px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__wwUfJ {
+    display: block;
+  }
+}
+.svg__lFv2S {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 74px;
+  height: 3px;
+  top: 649px;
+  left: 709px;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__lFv2S {
+    display: block;
+  }
+}
